@@ -214,8 +214,11 @@ The new task is ready to be scheduled.
 
 References:
 [1] Linux Kernel Development third Edition, Robert Love (2010) 
+
 [2] sigpending(2) - Linux man page, http://man7.org/linux/man-pages/man2/sigpending.2.html
+
 [3] clone(2) - Linux manual page, http://man7.org/linux/man-pages/man2/clone.2.html
+
 [4]
 ```c
 /*
