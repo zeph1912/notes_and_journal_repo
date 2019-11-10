@@ -213,6 +213,7 @@ It gets the pid of the new task, does some checks (if it is vfork), and finalize
 The new task is ready to be scheduled.
 
 References:
+
 [1] Linux Kernel Development third Edition, Robert Love (2010) 
 
 [2] sigpending(2) - Linux man page, http://man7.org/linux/man-pages/man2/sigpending.2.html
