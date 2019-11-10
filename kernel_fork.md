@@ -2,7 +2,6 @@
 
 Note: task, thread, process are the same thing here.
 
-### fork
 Hi `forks`, here I have some study notes about the Linux process creation.
 The older textbook[1] says the fork() in libc calls __clone(), which wraps the clone() syscall.
 Seems the newer kernel directly exposes sys_fork(), sys_vfork(), etc.
@@ -212,7 +211,7 @@ There isn't much left in `_do_folk()`.
 It gets the pid of the new task, does some checks (if it is vfork), and finalizes by calling `wake_up_new_task()`.
 The new task is ready to be scheduled.
 
-References:
+###References:
 
 [1] Linux Kernel Development third Edition, Robert Love (2010) 
 
