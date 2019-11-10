@@ -217,8 +217,10 @@ References:
 [2] sigpending(2) - Linux man page, http://man7.org/linux/man-pages/man2/sigpending.2.html
 [3] clone(2) - Linux manual page, http://man7.org/linux/man-pages/man2/clone.2.html
 [4]
+```c
 /*
  *  linux/kernel/fork.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
+ ```
