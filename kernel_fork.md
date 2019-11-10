@@ -211,7 +211,7 @@ There isn't much left in `_do_folk()`.
 It gets the pid of the new task, does some checks (if it is vfork), and finalizes by calling `wake_up_new_task()`.
 The new task is ready to be scheduled.
 
-###References:
+### References:
 
 [1] Linux Kernel Development third Edition, Robert Love (2010) 
 
